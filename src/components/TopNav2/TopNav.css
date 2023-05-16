@@ -1,3 +1,69 @@
+#topnav {
+  background-color: #2C2C2C;
+  color: white;
+}
+
+#topnav #topnav-menu {
+  float: left;
+}
+
+#topnav .topnav-group {
+  display: inline-block;
+}
+
+#topnav .topnav-brand {
+  float: left;
+  margin-top: 0.5rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+  font-family: 'Lucida Handwriting';
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#topnav .topnav-link {
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+}
+
+#topnav .icon-bars {
+  display: none;
+  padding: 0.5rem 2rem;
+  float: right;
+  cursor: pointer;
+}
+
+#topnav .topnav-link:hover, #topnav .icon-bars:hover {
+  background-color: #111111;
+}
+
+/* @media screen and (min-width: 601px) {
+  #topnav #topnav-menu {
+    display: block;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  #topnav {
+    background-color: #555;
+  }
+  #topnav .icon-bars {
+    display: block;
+  }
+  #topnav #topnav-menu {
+    /* display: none; */
+    display: block;
+    clear: both;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  #topnav .topnav-group{
+    display: block;
+  }
+}
+
+/* Older ones */
 .topnav {
   position: relative;
   background-color: #333;

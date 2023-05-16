@@ -1,0 +1,30 @@
+.drop-down {
+  position: relative;
+  display: inline;
+}
+
+.drop-down-content {
+  display: none;
+  width: 10rem;
+  padding: 0.4rem 0rem;
+  position: absolute;
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.drop-down-content span {
+  display: block;
+  padding: 0 0.3rem;
+}
+
+.drop-down-content span:hover {
+  background-color: #0D99FF
+}
+
+.drop-down-btn:hover {
+  background-color: white;
+}
+
+.drop-down:hover .drop-down-content{
+  display: block;
+}
